@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+    font-family: cursive;
+  
+}
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/349/1002/HD-wallpaper-waterfall-cascading-into-river-river-white-blue-dark-forest-rock-cascading-trees-mountains-clouds-green.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: plum;
+    color:rgb(183, 38, 183);
+
+}
+header h1{
+    font-size: 20px;
+}
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 100px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffc107;
+}
